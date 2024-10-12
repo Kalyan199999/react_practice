@@ -1,25 +1,23 @@
-import logo from './logo.svg';
-import './App.css';
+// import './App.css'
+// import LoadComponents from './components/loadComponents';
+// import AxiosComponents from './axios_components/axiosComponents';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+import LoadHooks from './Hooks/loadHooks';
+
+
+function App(params) {
+  return(
+
+    <>
+      
+      {/* <LoadComponents />
+      
+      <AxiosComponents /> */}
+
+      < LoadHooks/>
+
+    </>
+
+  )
 }
-
 export default App;

@@ -1,0 +1,29 @@
+*{
+    color: black;
+    margin: 30px;
+    text-align: center;
+}
+
+.parent{
+    width: 75vw;
+    height: 70vh;
+    border: 2px solid red;
+}
+
+.child_a{
+    width: 90%;
+    height: 75%;
+    border: 2px solid white;
+}
+
+.child_b{
+    width: 90%;
+    height: 75%;
+    border: 2px solid green;
+}
+
+.child_c{
+    width: 90%;
+    height: 75%;
+    border: 2px solid blue;
+}
