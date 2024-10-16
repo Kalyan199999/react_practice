@@ -2,7 +2,9 @@
 // import LoadComponents from './components/loadComponents';
 // import AxiosComponents from './axios_components/axiosComponents';
 
-import LoadHooks from './Hooks/loadHooks';
+// import LoadHooks from './Hooks/loadHooks';
+
+import LoadPages from './pagination/LoadPages';
 
 
 function App(params) {
@@ -14,7 +16,9 @@ function App(params) {
       
       <AxiosComponents /> */}
 
-      < LoadHooks/>
+      {/* < LoadHooks/> */}
+
+      <LoadPages />
 
     </>
 

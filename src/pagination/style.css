@@ -1,0 +1,51 @@
+table{
+    margin: 10px;
+    width: 90vw;
+    height: 90vh;
+    /* border: 2px solid  red; */
+    border-collapse: collapse;
+}
+
+tr{
+    height: 50px ;
+}
+
+thead tr{
+    background-color:brown;
+    color: white;
+}
+
+tbody tr{
+    text-align: center;
+}
+
+ tr:nth-child(even){
+    background-color: gray;
+}
+
+td img{
+    height: 50px;
+}
+
+.buttons{
+    margin: 5px;
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 5px;
+    /* border: 2px solid red; */
+}
+button{
+    width: 55px;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    background-color: blue;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover
+{
+    background-color: green;
+}
